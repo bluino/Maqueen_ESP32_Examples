@@ -51,10 +51,6 @@ int colorRGB;
 int numColorRGB=13;
 int angelServo=90;
 
-long duration;
-int distance;
-bool lastTurn;
-
 AsyncWebServer server(80);
 
 void notFound(AsyncWebServerRequest *request) {
