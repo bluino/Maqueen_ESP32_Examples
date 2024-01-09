@@ -1,3 +1,10 @@
+/* 
+  Install ESP8266 WiFi Robot Car App from Google Playstore
+  Link: https://play.google.com/store/apps/details?id=com.bluino.esp8266wifirobotcar
+  When robot's Wifi mode as STA (station), look at serial monitor to find IP address then fill it on App,
+  otherwise Wifi mode as AP (Access Point), connect Android phone to the Wifi names is Maqueen32-xxxx and fill IP address on App with 192.168.4.1
+*/
+
 #include <WiFi.h>
 #include <ESPAsyncWebServer.h>
 #include <ESP32Servo.h>
