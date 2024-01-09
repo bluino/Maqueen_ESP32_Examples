@@ -49,10 +49,6 @@ int brightRGB=50;
 int colorRGB;
 int numColorRGB=13;
 
-long duration;
-int distance;
-bool lastTurn;
-
 void setup(){
   Serial.begin(115200);
 
